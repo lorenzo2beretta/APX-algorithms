@@ -9,7 +9,7 @@ from scipy.linalg import cholesky
 fnames = ['learning-0.6.txt', 'copenhagen-0.5.txt', 'denmark-0.6.txt']
 
 # testing purposes
-filename = fnames[0]
+filename = fnames[2]
 
 # Read vectors and construct matrices
 with open(filename, 'r') as f:
